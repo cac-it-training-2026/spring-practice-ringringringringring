@@ -15,7 +15,6 @@ public class Practice0501Controller {
 
 	@RequestMapping(path = "/fruits/list/all")
 	public String showFruitsList(Model model) {
-
 		model.addAttribute("fruitsList", fruitRepository.findAll());
 		return "Practice05/01/fruits_list";
 	}

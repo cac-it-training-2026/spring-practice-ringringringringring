@@ -18,45 +18,45 @@ public class FruitsSeason {
 	private Integer seasonMonth;
 
 	/**
-	 * @return id
+	 * @return fruitId
 	 */
-	public Integer getId() {
+	public Integer getFruitId() {
 		return fruitId;
 	}
 
 	/**
-	 * @param id セットする id
+	 * @param fruitId セットする fruitId
 	 */
-	public void setId(Integer id) {
-		this.fruitId = id;
+	public void setFruitId(Integer fruitId) {
+		this.fruitId = fruitId;
 	}
 
 	/**
-	 * @return name
+	 * @return fruitName
 	 */
-	public String getName() {
+	public String getFruitName() {
 		return fruitName;
 	}
 
 	/**
-	 * @param name セットする name
+	 * @param fruitName セットする fruitName
 	 */
-	public void setName(String name) {
-		this.fruitName = name;
+	public void setFruitName(String fruitName) {
+		this.fruitName = fruitName;
 	}
 
 	/**
-	 * @return season
+	 * @return seasonMonth
 	 */
-	public Integer getSeason() {
+	public Integer getSeasonMonth() {
 		return seasonMonth;
 	}
 
 	/**
-	 * @param season セットする season
+	 * @param seasonMonth セットする seasonMonth
 	 */
-	public void setSeason(Integer season) {
-		this.seasonMonth = season;
+	public void setSeasonMonth(Integer seasonMonth) {
+		this.seasonMonth = seasonMonth;
 	}
 
 }
